@@ -1,4 +1,4 @@
-# SEEM5020 Individual Project
+# SEEM5020 Project
 
 This repository contains a complete implementation of the frequency-estimation project from `Project-description.pdf`, updated to use the provided network trace in `data/network/` as the real-world dataset.
 
@@ -75,7 +75,9 @@ bash scripts/build_report.sh
 ## Real-world dataset
 
 The real-world dataset is built from the pcap file `data/network/200002091359.dump`.
+
 Download Link: https://mawi.wide.ad.jp/mawi/samplepoint-A/2000/200002091359.html
+
 The preprocessing script uses `tcpdump` to extract directed endpoint-pair flow keys of the form:
 
 ```text
